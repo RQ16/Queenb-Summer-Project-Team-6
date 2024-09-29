@@ -10,7 +10,7 @@ const RandomDuck = () => {
 
   return (
     <div className={styles.container}>
-      <FirstButton onClick={getRandomDuck}>hello world</FirstButton>
+      <FirstButton onClick={getRandomDuck}>hello </FirstButton>
       {duck && (
           <div className={styles.duck}>
             <h2 className={styles.duckName}>{duck.name}</h2>
