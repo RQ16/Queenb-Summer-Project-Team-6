@@ -1,0 +1,43 @@
+.touristSite {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 1/1; /* Ensures each card is a square */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .touristSite:hover {
+    transform: scale(1.05); /* Adds a hover effect */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .name {
+    margin: 16px 0 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .location {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

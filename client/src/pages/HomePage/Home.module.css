@@ -1,10 +1,6 @@
-.home {
-  text-align: center;
-  padding: 20px;
-}
-
-.headline {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #53474F;
+.homePage {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
 }
