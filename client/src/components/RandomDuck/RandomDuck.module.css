@@ -1,35 +1,53 @@
 .container {
   padding: 20px;
-  border-radius: 8px;
 }
 
-.title {
-  color: #333;
-  font-size: 24px;
-}
-
-.content {
-  color: #666;
-  font-size: 16px;
-}
-
-.duck {
+.dashboard {
   margin-top: 20px;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
 }
 
-.img {
-  max-width: 200px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 10px;
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffe6e6; /* Light pink background like the screenshot */
 }
 
-.duckName {
-  font-size: 24px;
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid hsl(348, 10%, 72%); /* Light border */
+  text-align: left;
+  color: hsl(348, 10%, 72%);
+}
+
+.table th {
+  background-color: #ffe6e6;
+  color: hsl(348, 10%, 72%); /* Heading text color */
   font-weight: bold;
-  color: #333;
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
+.editBtn, .deleteBtn {
+  background-color: #3f2b2b;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.editBtn:hover {
+  background-color: #ffe6e6; /* Darker shade on hover */
+}
+
+.deleteBtn:hover {
+  background-color: #ffe6e6; /* Darker red for delete button on hover */
+}
+
+h1 {
+  color:#3f2b2b ;
 }
