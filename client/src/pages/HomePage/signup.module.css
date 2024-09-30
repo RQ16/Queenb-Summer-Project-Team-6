@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #fdeef4;
+    padding: 20px;
+    border-bottom: 2px solid rgba(255, 192, 203, 0.438);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color: rgba(255, 192, 203, 0.438);
+    font-weight: bold;
+  }
+  
+  .login-register {
+    background-color: #ffc0cb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Form Styling */
+  .formTitle {
+    color: #3f2b2b;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+  }
+  
+  .box {
+    background-color: #fdeef4;
+    padding: 40px;
+    border: 2px solid rgba(255, 192, 203, 0.473);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #794e5c;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .btn:hover {
+    background-color: #3f2b2b;
+  }
+  
+  .forgotPassword, .login-register-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Grid Layout for Sign Up Form */
+  /* Grid Layout for Sign Up Form */
+  .formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px; /* Increased gap between columns */
+    row-gap: 20px; /* Space between rows */
+  }
+  
+  .formGrid .input {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  
+  /* Full-width input for Email/Password Confirmation */
+  .input.full-width {
+    grid-column: span 2;
+  }
+  
